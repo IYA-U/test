@@ -1,5 +1,7 @@
+import React from 'react';
+
 interface Props {
-  type: 'typeA' | 'typeB';
+  type: HogePattern;
   texts: string[];
 }
 
