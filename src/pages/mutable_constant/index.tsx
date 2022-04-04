@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import LiteralProps from 'src/components/LiteralProps';
+import AsConstTest from 'src/components/AsConstTest';
 
 const childrenProps = [
   {
@@ -15,7 +15,7 @@ const childrenProps = [
 const TestReadOnlyErrorPage: NextPage = () => (
   <div>
     {childrenProps.map((props) => (
-      <LiteralProps {...props} />
+      <AsConstTest {...props} />
     ))}
   </div>
 );
