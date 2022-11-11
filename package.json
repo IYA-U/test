@@ -15,10 +15,11 @@
     "prettier-fix-all": "prettier --write \"**/*.js\""
   },
   "dependencies": {
-    "next": "12.x",
+    "next": "13.x",
     "react": "18.x",
     "react-dom": "18.x",
-    "styled-components": "5.x"
+    "styled-components": "5.x",
+    "html-to-image": "1.x"
   },
   "devDependencies": {
     "@types/node": "16.x",
@@ -27,7 +28,7 @@
     "@types/styled-components": "5.x",
     "@typescript-eslint/eslint-plugin": "5.x",
     "eslint": "8.x",
-    "eslint-config-next": "12.x",
+    "eslint-config-next": "13.x",
     "eslint-config-prettier": "8.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "husky": "8.x",
